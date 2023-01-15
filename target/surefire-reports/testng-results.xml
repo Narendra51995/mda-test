@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-13T06:35:16 PST" name="testSuite" finished-at="2023-01-13T06:39:43 PST" duration-ms="267002">
+    <groups>
+    </groups>
+    <test started-at="2023-01-13T06:35:16 PST" name="ChromeTest" finished-at="2023-01-13T06:37:23 PST" duration-ms="126843">
+      <class name="test.SignUpPage">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:35:16 PST" name="setUp" finished-at="2023-01-13T06:35:28 PST" duration-ms="12198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[108.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:35:28 PST" name="openBrowser" finished-at="2023-01-13T06:35:35 PST" duration-ms="6607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="emptyEmailTest()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:35:35 PST" name="emptyEmailTest" finished-at="2023-01-13T06:35:42 PST" duration-ms="6807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmailTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:35:42 PST" name="openBrowser" finished-at="2023-01-13T06:35:45 PST" duration-ms="3878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="emptyNameTest()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:35:45 PST" name="emptyNameTest" finished-at="2023-01-13T06:35:53 PST" duration-ms="7079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyNameTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:35:53 PST" name="openBrowser" finished-at="2023-01-13T06:35:56 PST" duration-ms="3829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="emptyPasswordTest()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:35:56 PST" name="emptyPasswordTest" finished-at="2023-01-13T06:36:05 PST" duration-ms="8808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPasswordTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:36:05 PST" name="openBrowser" finished-at="2023-01-13T06:36:10 PST" duration-ms="5255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="emptyPhoneTest()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:36:10 PST" name="emptyPhoneTest" finished-at="2023-01-13T06:36:22 PST" duration-ms="11636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPhoneTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:36:22 PST" name="openBrowser" finished-at="2023-01-13T06:36:27 PST" duration-ms="4473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="inValidPasswordTest()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:36:27 PST" name="inValidPasswordTest" finished-at="2023-01-13T06:36:35 PST" duration-ms="8707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidPasswordTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:36:35 PST" name="openBrowser" finished-at="2023-01-13T06:36:40 PST" duration-ms="4622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="landingPageRedirectionTest()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:36:40 PST" name="landingPageRedirectionTest" finished-at="2023-01-13T06:36:42 PST" duration-ms="1912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageRedirectionTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:36:42 PST" name="openBrowser" finished-at="2023-01-13T06:36:48 PST" duration-ms="6112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginRedirectionTest()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:36:48 PST" name="loginRedirectionTest" finished-at="2023-01-13T06:36:50 PST" duration-ms="2344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginRedirectionTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:36:50 PST" name="openBrowser" finished-at="2023-01-13T06:36:55 PST" duration-ms="5024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="privacyPolicyRedirectionTest()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:36:55 PST" name="privacyPolicyRedirectionTest" finished-at="2023-01-13T06:36:59 PST" duration-ms="3813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privacyPolicyRedirectionTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:36:59 PST" name="openBrowser" finished-at="2023-01-13T06:37:04 PST" duration-ms="4766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="termsRedirectionTest()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:37:04 PST" name="termsRedirectionTest" finished-at="2023-01-13T06:37:09 PST" duration-ms="5271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- termsRedirectionTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:37:09 PST" name="openBrowser" finished-at="2023-01-13T06:37:14 PST" duration-ms="4773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyElemntsOnPageTest()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:37:14 PST" name="verifyElemntsOnPageTest" finished-at="2023-01-13T06:37:19 PST" duration-ms="5362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElemntsOnPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.SignUpPage@7ec7ffd3]" started-at="2023-01-13T06:37:20 PST" name="tearDown" finished-at="2023-01-13T06:37:23 PST" duration-ms="2580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.SignUpPage -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-01-13T06:37:23 PST" name="EdgeTest" finished-at="2023-01-13T06:39:43 PST" duration-ms="139857">
+      <class name="test.SignUpPage">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:37:23 PST" name="setUp" finished-at="2023-01-13T06:37:33 PST" duration-ms="9615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[108.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:37:33 PST" name="openBrowser" finished-at="2023-01-13T06:37:40 PST" duration-ms="7827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="emptyEmailTest()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:37:40 PST" name="emptyEmailTest" finished-at="2023-01-13T06:37:50 PST" duration-ms="9945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyEmailTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:37:50 PST" name="openBrowser" finished-at="2023-01-13T06:37:56 PST" duration-ms="5324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="emptyNameTest()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:37:56 PST" name="emptyNameTest" finished-at="2023-01-13T06:38:04 PST" duration-ms="8111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyNameTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:38:04 PST" name="openBrowser" finished-at="2023-01-13T06:38:09 PST" duration-ms="5502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="emptyPasswordTest()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:38:09 PST" name="emptyPasswordTest" finished-at="2023-01-13T06:38:22 PST" duration-ms="12900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPasswordTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:38:22 PST" name="openBrowser" finished-at="2023-01-13T06:38:27 PST" duration-ms="4510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="emptyPhoneTest()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:38:27 PST" name="emptyPhoneTest" finished-at="2023-01-13T06:38:35 PST" duration-ms="8656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyPhoneTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:38:36 PST" name="openBrowser" finished-at="2023-01-13T06:38:42 PST" duration-ms="6419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="inValidPasswordTest()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:38:42 PST" name="inValidPasswordTest" finished-at="2023-01-13T06:38:53 PST" duration-ms="10565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inValidPasswordTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:38:53 PST" name="openBrowser" finished-at="2023-01-13T06:38:58 PST" duration-ms="5606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="landingPageRedirectionTest()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:38:58 PST" name="landingPageRedirectionTest" finished-at="2023-01-13T06:39:00 PST" duration-ms="1818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- landingPageRedirectionTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:39:00 PST" name="openBrowser" finished-at="2023-01-13T06:39:05 PST" duration-ms="5382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="loginRedirectionTest()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:39:05 PST" name="loginRedirectionTest" finished-at="2023-01-13T06:39:08 PST" duration-ms="2870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginRedirectionTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:39:08 PST" name="openBrowser" finished-at="2023-01-13T06:39:13 PST" duration-ms="5119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="privacyPolicyRedirectionTest()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:39:13 PST" name="privacyPolicyRedirectionTest" finished-at="2023-01-13T06:39:18 PST" duration-ms="4495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- privacyPolicyRedirectionTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:39:18 PST" name="openBrowser" finished-at="2023-01-13T06:39:23 PST" duration-ms="5359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="termsRedirectionTest()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:39:23 PST" name="termsRedirectionTest" finished-at="2023-01-13T06:39:28 PST" duration-ms="4776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- termsRedirectionTest -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:39:28 PST" name="openBrowser" finished-at="2023-01-13T06:39:33 PST" duration-ms="5050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyElemntsOnPageTest()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:39:33 PST" name="verifyElemntsOnPageTest" finished-at="2023-01-13T06:39:41 PST" duration-ms="7663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElemntsOnPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.SignUpPage@747ddf94]" started-at="2023-01-13T06:39:41 PST" name="tearDown" finished-at="2023-01-13T06:39:43 PST" duration-ms="2083" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.SignUpPage -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- testSuite -->
+</testng-results>
