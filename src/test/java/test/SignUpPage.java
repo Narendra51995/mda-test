@@ -19,8 +19,8 @@ import org.testng.annotations.Parameters;
 public class SignUpPage {
 
 	// Setting up capabilities to run our test script
-	public String username = "spatil01866";
-	public String accesskey = "1atywP05yuwizPFTdNQeo7aglxSxZ9ZtCDUqdXfpImlz1nlxYe";
+	public String username = "patilrina303";
+	public String accesskey = "1a697TJv9B6THDo7FF9u5txGm6O8iTtt28X422w2CWOdsLx209";
 	public static RemoteWebDriver driver = null;
 	public String gridURL = "@hub.lambdatest.com/wd/hub";
 	boolean status = false;
